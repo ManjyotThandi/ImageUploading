@@ -20,7 +20,7 @@ public class FakeUserProfileStore {
 		USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "Track", null));
 	}
 
-	public List<UserProfile> getUserProfile() {
+	public List<UserProfile> getUserProfiles() {
 		return USER_PROFILES;
 	}
 }
